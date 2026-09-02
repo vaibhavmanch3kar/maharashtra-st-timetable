@@ -1,0 +1,22 @@
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Local experiments / scratch
+node_modules/
+dist/
+*.log
+.tmp/
+
+# Never commit secrets. This app needs none — if a fork adds an API layer,
+# keep credentials out of the repo.
+.env
+.env.*
+*.key
+*.pem
